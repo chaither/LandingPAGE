@@ -30,15 +30,23 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgba(15, 147, 235, 0.2);
+    background-color: rgb(243, 73, 73);
     padding: 0 40px;
     backdrop-filter: blur(8px);
 }
+.navbar img {
+    
+    height: 80px;
+    width: 80px;
+    margin-top: 20px;
+
+}
 
 .icon .logo {
-    font-size: 28px;
+    font-size: 30px;
     font-weight: bold;
     color: #fff;
+    margin-right: 1200px;
 }
 
 .menu ul {
@@ -86,7 +94,7 @@ body {
 
 .img {
    margin-top: 100px;
-    width: 300  px;
+    width: 300 px;
     height: 300px;
     border-radius: 50%;
     object-fit: cover;
@@ -121,25 +129,7 @@ body {
     line-height: 1.6;
 }
 
-.cn {
-    padding: 10px 25px;
-    background-color: #fff;
-    border: none;
-    border-radius: 25px;
-    font-size: 16px;
-    cursor: pointer;
-    transition: 0.3s;
-}
 
-.cn a {
-    text-decoration: none;
-    color: #333;
-    font-weight: bold;
-}
-
-.cn:hover {
-    background-color: #ffe600;
-}
 
 .footer {
     background-color: rgba(0, 0, 0, 0.7);
@@ -213,19 +203,20 @@ body {
 
 .image-container {
   display: flex;
-  gap: 30px;
+  gap: 200px;
   justify-content: center;
   flex-wrap: wrap;
 }
 
 
 .image-card {
-  width: 500px;
-  height: 500px;
+  width: 300px;
+  height: 300px;
   overflow: hidden;
   border-radius: 15px;
   box-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
   transition: transform 0.3s ease;
+  
 }
 
 .image-card img {
@@ -260,7 +251,7 @@ body {
   justify-content: space-around;
   max-width: 2000px;
   margin-left: 500px;
-  gap: 15px;
+  gap: 150px;
   z-index: 1000;
   margin-bottom: 100px;
 }
@@ -275,14 +266,14 @@ body {
   font-size: 16px;
   cursor: pointer;
   transition: 0.4s;
-  text-decoration: none;   /* remove underline from <a> */
+  text-decoration: none; 
   display: inline-block;
 }
 
 .my-btn:hover {
   background: #00a8c6;
   box-shadow: 0 0 15px #c600b5, 0 0 30px #00c634;
-   transform: scale(1.1); /* zoom in by 10% */
+   transform: scale(1.1); 
   box-shadow: 0 0 15px #c600b5, 0 0 30px #00c634;
 }
 

@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+   
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(photo/waj.jpg);
+    background-position: center;
+    background-size: cover; 
+    height: 100vh;
+     overflow-x: hidden; 
+    overflow-y: auto;    
+
+}
+
+.main {
+   width: 100%;
+    min-height: 100vh;
+    position: relative;
+    padding-bottom: 100px;
+}
+
+.navbar {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(15, 147, 235, 0.2);
+    padding: 0 40px;
+    backdrop-filter: blur(8px);
+}
+
+.icon .logo {
+    font-size: 28px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.menu ul {
+    display: flex;
+    list-style: none;
+}
+
+.menu ul li {
+    margin: 0 15px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+.menu ul li a:hover {
+    color: #ffe600;
+}
+
+.search .btn {
+    padding: 8px 16px;
+    background-color: #fff;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.search .btn:hover {
+    background-color: #ffe600;
+}
+
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    max-width: 800px;
+}
+
+.img {
+   margin-top: 100px;
+    width: 300  px;
+    height: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+    
+}
+
+
+
+.content h1 {
+    font-size: 36px;
+    color: white;
+}
+
+
+
+
+
+
+
+.content h1 span {
+    color: #f8bb15;
+    font-weight: bold;
+}
+
+
+
+
+.par {
+  background-color: rgba(0, 0, 0, 0.6); /* Black with 60% opacity */
+  color: white;
+  padding: 20px 20px;
+  border-radius: 15px;
+  max-width: 750px;
+  margin: 40px auto;
+  text-align: center;
+  box-shadow: 0 0 15px rgb(243, 119, 3);
+  animation: fadeIn 2s ease-in forwards;
+  opacity: 0;
+  font-size: 1.3rem;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
+
+
+.cn {
+    padding: 10px 25px;
+    background-color: #fff;
+    border: none;
+    border-radius: 25px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.cn a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.cn:hover {
+    background-color: #ffe600;
+}
+
